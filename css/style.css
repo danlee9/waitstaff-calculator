@@ -1,0 +1,106 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.4em;
+	margin: 1em;
+}
+
+h2 {
+	font-size: 1.4em;
+	margin: 0.5em;
+}
+
+span,
+label {
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
+
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+table {
+	margin-left: 30%;
+}
+
+tr {
+	line-height: 1.7em;
+}
+
+footer {
+	text-align: right;
+	margin-right: 25%;
+}
+
+.error {
+	text-align: center;
+	margin-top: -2em;
+	margin-bottom: 1em;
+	color: red;
+	font-weight: bold;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.input-col,
+.output-col {
+	float: left;
+}
+
+.input-col {
+	width: 48%;
+	border: 2px solid dodgerblue;
+}
+
+.output-col {
+	width: 33%;
+	margin-left: 1em;
+	border: 2px solid indianred;
+	margin-bottom: 1em;
+}
+
+.content-header {
+	border-bottom: 1px solid blue;
+	overflow: auto;
+}
+
+.row {
+	margin: 1em 0;
+}
+
+.total {
+	border-top: 1px solid steelblue;
+}
+
+.buttons {
+	margin: 3em 0;
+}
+
+.td-size-set {
+	width: 60%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#earnings-table {
+	margin-left: 20%;	
+}
