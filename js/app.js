@@ -8,7 +8,7 @@ angular.module('myApp', ['ngRoute', 'ngAnimate'])
 			controller: 'CalcCtrl'
 		})
 		.when('/error', {
-			template: '<main class="error"><p>Error - Page Not Found</p></main>'
+			template: '<main class="error"><p>Error - Page Not Found!</p></main>'
 		})
 		.otherwise('/error');
 	}])
