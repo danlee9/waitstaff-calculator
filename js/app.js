@@ -1,5 +1,6 @@
 angular.module('myApp', ['ngRoute', 'ngAnimate'])
-	.config(['$routeProvider', function($routeProvider) {
+	.config(['$locationProvider', '$routeProvider', function($locationProvider,$routeProvider) {
+		$locationProvider.html5Mode(true);
 		$routeProvider.when('/', {
 			templateUrl: '../views/description.html'
 		})
