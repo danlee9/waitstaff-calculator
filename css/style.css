@@ -6,6 +6,35 @@ header {
 	text-align: center;
 }
 
+nav {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: -1em;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+nav li:first-child {
+	border-right: 1px solid black;
+	padding-right: 0.3em;
+}
+
+nav a {
+	color: blue;
+}
+
+nav a:hover {
+	color: steelblue;
+}
+
+nav a.active {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 2.4em;
 	margin: 1em;
@@ -14,6 +43,12 @@ h1 {
 h2 {
 	font-size: 1.4em;
 	margin: 0.5em;
+}
+
+p {
+	font-size: 1.1em;
+	margin: 0.5em;
+	line-height: 1.5em;
 }
 
 span,
@@ -43,7 +78,7 @@ footer {
 
 .error {
 	text-align: center;
-	margin-top: -2em;
+	margin-top: -1.5em;
 	margin-bottom: 1em;
 	color: red;
 	font-weight: bold;
@@ -61,13 +96,17 @@ footer {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
+.description {
+	width: 40%;
+}
+
 .input-col,
 .output-col {
 	float: left;
 }
 
 .input-col {
-	width: 48%;
+	width: 49.5%;
 	border: 2px solid dodgerblue;
 }
 
