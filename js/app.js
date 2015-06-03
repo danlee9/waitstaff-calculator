@@ -2,10 +2,10 @@ angular.module('myApp', ['ngRoute', 'ngAnimate'])
 	.config(['$locationProvider', '$routeProvider', function($locationProvider,$routeProvider) {
 		$locationProvider.html5Mode(true);
 		$routeProvider.when('/', {
-			templateUrl: '../views/description.html'
+			templateUrl: 'views/description.html'
 		})
 		.when('/calculator', {
-			templateUrl: '../views/calculator.html',
+			templateUrl: 'views/calculator.html',
 			controller: 'CalcCtrl'
 		})
 		.when('/error', {
