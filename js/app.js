@@ -1,10 +1,10 @@
 angular.module('myApp', ['ngRoute', 'ngAnimate'])
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider.when('/', {
-			templateUrl: '/waitstaff-calculator/views/description.html'
+			templateUrl: './views/description.html'
 		})
 		.when('/calculator', {
-			templateUrl: '/waitstaff-calculator/views/calculator.html',
+			templateUrl: './views/calculator.html',
 			controller: 'CalcCtrl'
 		})
 		.when('/error', {

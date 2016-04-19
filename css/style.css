@@ -135,7 +135,7 @@ footer {
 }
 
 .td-size-set {
-	width: 60%;
+	width: 70%;
 	text-align: right;
 	padding-right: 10px;
 }
@@ -144,22 +144,22 @@ footer {
 	margin-left: 20%;	
 }
 
-.loading {
+/*.loading {
   position:relative;
   height:100%;
 }
 
-.loading:before {
+.loading:after {
   position:absolute;
   content:"";
   left:0;
   bottom:0;
   right:0;
-  top:0;
+  top:20%;
   z-index:1000;
   background:rgba(255,255,255,0.9) no-repeat center center;
   background-image: url('../images/loading-animation.gif');
-}
+}*/
 
 .animate-view-container { position:relative; min-height: 100%; }
 .animate-view.ng-enter,
